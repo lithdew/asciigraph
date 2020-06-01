@@ -12,5 +12,5 @@ func main() {
 		data[i] = 15 * math.Sin(float64(i)*((math.Pi*4)/120.0))
 	}
 
-	fmt.Println(asciigraph.Plot(data, asciigraph.Width(115), asciigraph.Height(15)))
+	fmt.Println(asciigraph.Plot(data, asciigraph.Width(100), asciigraph.Height(15)))
 }
