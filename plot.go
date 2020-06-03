@@ -97,7 +97,7 @@ func Plot(series []float64, opts ...Option) string {
 	// have every end of the column be a line break
 	// have every other character be a space
 
-	for i := 0; i < len(plot)-1; i++ {
+	for i := 0; i < len(plot); i++ {
 		if (i+1)%(cols+1) == 0 {
 			plot[i] = '\n'
 		} else {
